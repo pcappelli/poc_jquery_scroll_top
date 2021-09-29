@@ -1,0 +1,192 @@
+<html>
+	<head>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function () {
+			   $('button').click(function() {
+				
+					$('.input-helper').animate({
+					scrollTop : $("#test").position().top,
+				}, 200);   
+			   });
+			});
+		</script>	
+		<style>
+body {
+    background:#ddd;
+}
+.input-helper {
+    background: #fff;
+    float: left;
+    width: 100%;
+    position: relative;
+    height: 200px;
+    z-index: 2000;
+    overflow-y: scroll;
+    font-size: 0.7em;
+    border-bottom: 3px solid #405871;
+    width:150px;
+}
+.input-helper ul {
+    float: left;
+    width: 90%;
+    position: absolute;
+    z-index: 30000;
+    padding: 0 5%;
+    background: #fff;
+}
+		</style>
+	</head>
+	<body>
+<button text="ir baixo">Ir para 14:50</button>
+<div class="input-helper" style="display: block; height: 200px;">
+    <ul>
+        <li>00:00</li>
+        <li class="odd">00:10</li>
+        <li>00:20</li>
+        <li class="odd">00:30</li>
+        <li>00:40</li>
+        <li class="odd">00:50</li>
+        <li>01:00</li>
+        <li class="odd">01:10</li>
+        <li>01:20</li>
+        <li class="odd">01:30</li>
+        <li>01:40</li>
+        <li class="odd">01:50</li>
+        <li>02:00</li>
+        <li class="odd">02:10</li>
+        <li>02:20</li>
+        <li class="odd">02:30</li>
+        <li>02:40</li>
+        <li class="odd">02:50</li>
+        <li>03:00</li>
+        <li class="odd">03:10</li>
+        <li>03:20</li>
+        <li class="odd">03:30</li>
+        <li>03:40</li>
+        <li class="odd">03:50</li>
+        <li>04:00</li>
+        <li class="odd">04:10</li>
+        <li>04:20</li>
+        <li class="odd">04:30</li>
+        <li>04:40</li>
+        <li class="odd">04:50</li>
+        <li>05:00</li>
+        <li class="odd">05:10</li>
+        <li>05:20</li>
+        <li class="odd">05:30</li>
+        <li>05:40</li>
+        <li class="odd">05:50</li>
+        <li>06:00</li>
+        <li class="odd">06:10</li>
+        <li>06:20</li>
+        <li class="odd">06:30</li>
+        <li>06:40</li>
+        <li class="odd">06:50</li>
+        <li>07:00</li>
+        <li class="odd">07:10</li>
+        <li>07:20</li>
+        <li class="odd">07:30</li>
+        <li>07:40</li>
+        <li class="odd">07:50</li>
+        <li>08:00</li>
+        <li class="odd">08:10</li>
+        <li>08:20</li>
+        <li class="odd">08:30</li>
+        <li>08:40</li>
+        <li class="odd">08:50</li>
+        <li>09:00</li>
+        <li class="odd">09:10</li>
+        <li>09:20</li>
+        <li class="odd">09:30</li>
+        <li>09:40</li>
+        <li class="odd">09:50</li>
+        <li>10:00</li>
+        <li class="odd">10:10</li>
+        <li>10:20</li>
+        <li class="odd">10:30</li>
+        <li>10:40</li>
+        <li class="odd">10:50</li>
+        <li>11:00</li>
+        <li class="odd">11:10</li>
+        <li>11:20</li>
+        <li class="odd">11:30</li>
+        <li>11:40</li>
+        <li class="odd active">11:50</li>
+        <li class="">12:00</li>
+        <li class="odd">12:10</li>
+        <li>12:20</li>
+        <li class="odd">12:30</li>
+        <li>12:40</li>
+        <li class="odd">12:50</li>
+        <li>13:00</li>
+        <li class="odd">13:10</li>
+        <li>13:20</li>
+        <li class="odd">13:30</li>
+        <li>13:40</li>
+        <li class="odd">13:50</li>
+        <li>14:00</li>
+        <li class="odd">14:10</li>
+        <li>14:20</li>
+        <li class="odd">14:30</li>
+        <li>14:40</li>
+        <li class="odd" id="test">14:50</li>
+        <li>15:00</li>
+        <li class="odd">15:10</li>
+        <li>15:20</li>
+        <li class="odd">15:30</li>
+        <li>15:40</li>
+        <li class="odd">15:50</li>
+        <li>16:00</li>
+        <li class="odd">16:10</li>
+        <li>16:20</li>
+        <li class="odd">16:30</li>
+        <li>16:40</li>
+        <li class="odd">16:50</li>
+        <li>17:00</li>
+        <li class="odd">17:10</li>
+        <li>17:20</li>
+        <li class="odd">17:30</li>
+        <li>17:40</li>
+        <li class="odd">17:50</li>
+        <li>18:00</li>
+        <li class="odd">18:10</li>
+        <li>18:20</li>
+        <li class="odd">18:30</li>
+        <li>18:40</li>
+        <li class="odd">18:50</li>
+        <li>19:00</li>
+        <li class="odd">19:10</li>
+        <li>19:20</li>
+        <li class="odd">19:30</li>
+        <li>19:40</li>
+        <li class="odd">19:50</li>
+        <li>20:00</li>
+        <li class="odd">20:10</li>
+        <li>20:20</li>
+        <li class="odd">20:30</li>
+        <li>20:40</li>
+        <li class="odd">20:50</li>
+        <li>21:00</li>
+        <li class="odd">21:10</li>
+        <li>21:20</li>
+        <li class="odd">21:30</li>
+        <li>21:40</li>
+        <li class="odd">21:50</li>
+        <li>22:00</li>
+        <li class="odd">22:10</li>
+        <li>22:20</li>
+        <li class="odd">22:30</li>
+        <li>22:40</li>
+        <li class="odd">22:50</li>
+        <li>23:00</li>
+        <li class="odd">23:10</li>
+        <li>23:20</li>
+        <li class="odd">23:30</li>
+        <li>23:40</li>
+        <li class="odd">23:50</li>
+    </ul>
+</div>
+	</body>
+</html>
